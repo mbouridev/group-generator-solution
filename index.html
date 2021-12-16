@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/app.css">
     <title>Générateur de groupes</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -58,12 +59,25 @@
         <h1>Générateur de groupes</h1>
         
         <!-- Formulaire ajout d'un nom-->
+        <form action id="addNameForm">
+            <input type="text" id="nameInput" placeholder="Nom du participant">
+            <button type="submit" class="btn btn-secondary">Ajouter un participant</button>
+        </form>
         
+
+
         <!-- Formulaire génération des groupes -->
         
+
+
         <!-- Liste des participants-->
         <h2>Liste des participants</h2>
 
+        <ul id="participantList">
+        </ul>
+
+        
+        
         <!-- Affichage des groupes -->
         <h2>Liste des groupes</h2>
         
